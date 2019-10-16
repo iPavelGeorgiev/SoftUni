@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>FromJSONToHTMLTable</title>
+   <style>
+      table,
+      th {
+         border: groove;
+         border-collapse: collapse;
+      }
+
+      td {
+         border: 1px solid black;
+      }
+
+      td,
+      th {
+         padding: 5px;
+      }
+   </style>
+</head>
+
+<body>
+   <div id="wrapper">
+   </div>
+   <script>
+      function fromJSONToHTMLTable(input) {
+         function escapeHtml(str) {
+            const map = {
+               '&': '&amp;',
+               '<': '&lt;',
+               '>': '&gt;',
+               '"': '&quot;',
+               "'": '&#39;'
+            };
+            return str.replace(/[&<>"']/g, function (m) { return map[m]; });
+         };
+
+         function makeValueRow(obj) {
+            let valueRow = `    <tr>`;
+            let objValues = Object.values(obj);
+
+            for (let value of objValues) {
+               if (isNaN(value)) {
+                  value = escapeHtml(value);
+               }
+
+               valueRow += `<td>${value}</td>`;
+            }
+            valueRow += `</tr>`;
+
+            return valueRow;
+         };
+
+         function makeKeyRow(objKeys) {
+            let keyRow = `    <tr>`;
+
+            for (let key of objKeys) {
+               keyRow += `<th>${key}</th>`;
+            }
+
+            keyRow += `</tr>`;
+
+            return keyRow;
+         };
+
+         let arr = JSON.parse(input);
+         let outputArr = ["<table>"];
+         outputArr.push(makeKeyRow(Object.keys(arr[0])));
+         arr.forEach((obj) => outputArr.push(makeValueRow(obj)));
+         outputArr.push("</table>");
+
+         return outputArr.join('\n')
+      }
+      
+      window.onload = function () {
+         let container = document.getElementById('wrapper');
+         container.innerHTML = fromJSONToHTMLTable(['[{"Name":"Tomatoes & Chips","Price":2.35},{"Name":"J&B Chocolate","Price":0.96}]']);
+      };
+   </script>
+</body>
+
+</html>

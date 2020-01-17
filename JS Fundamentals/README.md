@@ -22,7 +22,7 @@ JavaScript Topics | Common Topics
 
 **Duration of course: _13/05/2019 - 04/08/2019_**
 
-**Certificate / Honorable Mention: _[Еxcellent(6.00)](https://softuni.bg/certificates/details/63790/b73f2217)_**
+**Certificate / Honorable Mention: _[Еxcellent(6.00)](https://softuni.bg/certificates/details/69084/94364243)_**
 
 **Credits: _18_**
 
@@ -42,13 +42,6 @@ JavaScript Topics | Common Topics
 <p>William studied Computer Science at Newcastle University in England and graduated from John Atanasov High School in Sofia, majoring in Computer Networking. He has been working on programming since 2012, focusing heavily on Front-End Development and UX / UI Design. Creates React applications for 3 years. Has programmed applications for gambling sites, internal training sites, banking applications and more. He has worked on UX Award-winning sites and is currently working as a Senior Front-end Developer on Softuni's latest Interactive project.</p>
 <a href="https://www.linkedin.com/in/william-abboud-0a5350107?originalSubdomain=bg">@LinkedIn</a>
 </details>
-<details>
-<summary>
-<b>Kiril Kirilov</b>
-</summary>
-<p>Kiril studies programming since 2015. He has deep knowledge in programming with C#. Experience in building web applications with ASP.NET (OOP , LINQ , SQL Server, Entity Framework etc..). Recently he has interest in JavaScript (ES6, DOM Manipulations with jQuery ,Unit Testing with Mocha, building SPA applications without a framework). Deep understanding of Node.js + Express.js. Basic knowledge of React.js and using a state container like Redux/Flux. Experience with Angular and TypeScript. </p>
-<a href="https://www.linkedin.com/in/kiril-kirilov-037367149/?originalSubdomain=bg">@LinkedIn</a>
-</details>
 </details>
 
 <details>
@@ -66,4 +59,13 @@ JavaScript Topics | Common Topics
 <li><b>Ivaylo Dimitrov</b></li>
 <li><b>Svetlin Nakov</b></li>
 </ul>
+</details>
+
+**Assistant:**
+<details>
+<summary>
+<b>Kiril Kirilov</b>
+</summary>
+<p>Kiril studies programming since 2015. He has deep knowledge in programming with C#. Experience in building web applications with ASP.NET (OOP , LINQ , SQL Server, Entity Framework etc..). Recently he has interest in JavaScript (ES6, DOM Manipulations with jQuery ,Unit Testing with Mocha, building SPA applications without a framework). Deep understanding of Node.js + Express.js. Basic knowledge of React.js and using a state container like Redux/Flux. Experience with Angular and TypeScript.</p>
+<a href="https://www.linkedin.com/in/kiril-kirilov-037367149/">@LinkedIn</a>
 </details>

@@ -32,7 +32,6 @@ In the course **"JS Advanced"** students gain in-depth knowledge of the language
 <p>Martin is responsible for the client facing software of one of the biggest sports betting platform providers - SBTech. As a software architect there, his main focus is client side performance and scalability. He is a design and software enthusiast. Attention to detail and pedantry are part of his day-to-day work. He maintains an open mind and is always on the lookout for new technologies and opportunities to use them.</p>
 <a href="https://www.linkedin.com/in/martin-chaov-79912910/">@LinkedIn</a>
 </details>
-<br/>
 
 **Assistants:**
 <details>

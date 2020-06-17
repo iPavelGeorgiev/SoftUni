@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Students</title>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+   <button id="load-students">LOAD ALL STUDENTS</button>
+   <table id="results">
+      <thead>
+         <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Faculty Number</th>
+            <th>Grade</th>
+         </tr>
+      </thead>
+      <tbody></tbody>
+   </table>
+
+   <form>
+      <h3>ADD STUDENT</h3>
+      <label>ID</label>
+      <input type="text" id="id" placeholder="ID...">
+      <label>First Name</label>
+      <input type="text" id="first-name" placeholder="First Name...">
+      <label>Last Name</label>
+      <input type="text" id="last-name" placeholder="Last Name...">
+      <label>Faculty Number</label>
+      <input type="text" id="faculty-name" placeholder="Faculty Number...">
+      <label>Grade</label>
+      <input type="text" id="grade" placeholder="Grade...">
+      <button type="button" id="add-student">Submit</button>
+   </form>
+
+   <script type="module" src="../requester.js"></script>
+   <script type="module" src="./app.js"></script>
+</body>
+
+</html>

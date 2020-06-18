@@ -1,0 +1,13 @@
+<h1>Most popular monkeys</h1>
+<div class="monkeys" id="monkeys-container">
+   {{#each monkeys}}
+   <div class="monkey">
+      <h2>{{name}}</h2>
+      <img src="{{image}}">
+      <button onclick="displayDetails(this)">Info</button>
+      <p style="display: none" id="{{id}}">
+         {{info}}
+      </p>
+   </div>
+   {{/each}}
+</div>

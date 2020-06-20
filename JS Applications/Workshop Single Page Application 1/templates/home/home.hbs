@@ -1,0 +1,16 @@
+{{> header}}
+
+<main role="main" class="inner cover mt-5">
+   {{#if loggedIn}}
+      <h1 class="text-center">Our Recipes</h1>
+      {{#each recipes}}
+         {{> withRecipes}}
+      {{else}}
+         {{> withoutRecipes}}
+      {{/each}}
+   {{else}}
+      {{> anonymous}}
+   {{/if}}
+</main>
+
+{{> footer}}

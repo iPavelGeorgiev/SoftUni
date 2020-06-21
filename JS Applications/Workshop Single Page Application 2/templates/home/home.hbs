@@ -1,0 +1,14 @@
+{{> header}}
+{{> notifications}}
+
+{{#if loggedIn}}
+   {{#each event}}
+      {{> withEvents}}
+   {{else}}
+      {{> withoutEvents}}
+   {{/each}}
+{{else}}
+   {{> guest}}
+{{/if}}
+
+{{> footer}}

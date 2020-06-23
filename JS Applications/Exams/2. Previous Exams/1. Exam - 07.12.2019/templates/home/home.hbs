@@ -1,0 +1,13 @@
+{{> header}}
+
+{{#if loggedIn}}
+   {{#each treks}}
+      {{> withTreks}}
+   {{else}}
+      {{> withoutTreks}}
+   {{/each}}
+{{else}}
+   {{> guest}}
+{{/if}}
+
+{{> footer}}

@@ -1,0 +1,26 @@
+<header>
+   <nav>
+      <ul>
+         <li>
+            <a id="home" class="left-floated" href="/">MoneyGone</a>
+         </li>
+      </ul>
+      {{#if isLoggedIn}}
+      <ul>
+         <li>
+            <a class="right-floated" href="/profile/{{userID}}">[{{loggedUsername}} profile]</a>
+         </li>
+
+         <li>
+            <a class="right-floated" href="/logout">Logout</a>
+         </li>
+      </ul>
+      {{else}}
+      <ul>
+         <li>
+            <a class="right-floated" href="/login">Login</a>
+         </li>
+      </ul>
+      {{/if}}
+   </nav>
+</header>

@@ -1,0 +1,41 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+   padding: 0px;;
+   margin: 0px;
+}
+
+.btn-container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.btn-container > article {
+   margin-top: 2rem;
+}
+
+.btn {
+   cursor: pointer;
+   outline: none;
+   border-radius: 10px;
+   text-align: center;
+   margin: 5px;
+   padding: 5px 5px 5px 5px;
+}
+
+.btn:not(.fill), .btn:not(.fill) a {
+   text-decoration: none;
+   color: rgb(51, 51, 51);
+}
+
+.btn.fill, .btn.fill a {
+   background-color: rgb(51, 51, 51);
+   color: rgb(251, 251, 251);
+   text-decoration: none;
+}
+
+.btn.hover:hover {
+   background-color: rgb(0, 102, 0);
+}

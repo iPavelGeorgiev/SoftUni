@@ -1,0 +1,101 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+/* Reset */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+
+.viewport {
+   position: relative;
+   width: calc(100vw - 17px);
+   height: 100vh;
+}
+
+.viewport:nth-child(odd) {
+   background: linear-gradient(90deg, rgba(28,102,157,1) 0%, rgba(44,144,159,1) 50%, rgba(63,195,161,1) 100%);
+}
+
+.viewport:nth-child(even) {
+   background: linear-gradient(90deg, rgba(170,55,113,1) 0%, rgba(188,90,67,1) 50%, rgba(208,125,25,1) 100%);
+}
+
+.card {
+   position: absolute;
+   color: #FFF;
+   font-size: 3em;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 12em;
+   background: black;
+   border-radius: 0.1em;
+   overflow: hidden;
+   box-shadow: 0 0 1.5rem 0.1em rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+   transition: transform 0.3s ease-in;
+}
+
+.card:before {
+   position: relative;
+   display: block;
+   content: "";
+   box-shadow: 0 0 2em 0.2em rgba(0, 0, 0, 0.8) inset;
+   transition: opacity 0.3s ease-in;
+   z-index: 10;
+   pointer-events: none;
+}
+
+.card:hover {
+   transform: translate(-50%, -50%) scale(1.1);
+}
+
+.card:hover:before {
+   opacity: 0.1;
+}
+
+.card.ar-16x9:before {
+   padding-top: calc( (9 / 16 ) * 100% );
+}
+
+.ar-9x16 {
+   width: 8em;
+}
+
+.card.ar-9x16:before {
+   padding-top: calc( (16 / 9 ) * 100% );
+}
+
+.card .media {
+   position: absolute;
+   top: 0; left: 0; right: 0; bottom: 0;
+   background: purple
+}
+
+.card.portrait img {
+   display: block;
+   height: 100%;
+   width: auto;
+}
+
+.card.landscape img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.card .icon {
+   position: absolute;
+   color: #FFF;
+   right: 0.5em;
+   bottom: 0.5em;
+}

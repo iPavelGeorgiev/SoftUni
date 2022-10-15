@@ -1,0 +1,25 @@
+* {
+   font-family: Helvetica, sans-serif;
+}
+
+header, main {
+   max-width: 1100px;
+   margin: 50px auto;
+}
+
+header h1, nav, nav li {
+   display: inline-block;
+}
+
+nav li a {
+   color: rgb(98, 151, 17);
+   text-decoration: none;
+   padding-left: 15px;
+}
+
+hr {
+   border: none;
+   height: 2px;
+   color: #333; /* old IE */
+   background-color: #333; /* Modern Browsers */
+}

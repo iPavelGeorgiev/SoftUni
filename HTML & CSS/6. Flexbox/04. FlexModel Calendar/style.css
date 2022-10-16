@@ -1,0 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   height: 70vh;
+   max-width: 65vw;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.week {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.notes {
+   display: flex;
+   flex-flow: column wrap;
+}
+
+.container span {
+   padding: 10px;
+   border: 1px solid black;
+}
+
+.week span {
+   flex: 1 1 20%;
+   padding-bottom: 5rem;
+}
+
+.week span:nth-child(1), .week span:nth-child(7) {
+   flex: 1 1 100%;
+}
+
+.notes span {
+   width: 13rem;
+   flex: 1 1 auto;
+}

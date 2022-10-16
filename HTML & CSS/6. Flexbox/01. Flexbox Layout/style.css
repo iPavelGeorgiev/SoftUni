@@ -1,0 +1,58 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   flex-flow: column wrap;
+   background-color: rgb(235, 235, 235);
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   width: 80%;
+   display: flex;
+   flex-flow: column wrap;
+}
+
+.box {
+   border-radius: 5px;
+   box-shadow: 0 0 5px 5px rgb(179, 179, 179);
+   background-color: white;
+   margin-bottom: 1.87rem;
+   padding: 2.5rem;
+   font-size: 1.5rem;
+}
+
+header {
+   min-height: 18.75rem;
+}
+
+.main-and-aside {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+footer.box {
+   min-height: 12.5rem;
+}
+
+main.box {
+   flex-basis: 69%;
+}
+
+aside.box {
+   flex-basis: 29%;
+}

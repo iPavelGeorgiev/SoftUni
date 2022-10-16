@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   box-sizing: border-box;
+   font: 16px/1.5 Helvetica, sans-serif;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+h2 {
+   font: 2em/1.2 Georgia, serif;
+}
+
+body {
+   height: 100vh;
+   width: 100vw;
+}
+
+.container {
+   height: 100%;
+   max-width: 70vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.container article {
+   flex: 0 1 30%;
+}
+
+.container h2 {
+   margin-bottom: 1rem;
+}

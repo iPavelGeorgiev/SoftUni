@@ -1,0 +1,14 @@
+.bank-info {
+  margin-bottom: 10rem;
+}
+
+.bank-info-content {
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+}
+
+.bank-info-logo {
+  width: 33rem;
+  height: auto;
+}

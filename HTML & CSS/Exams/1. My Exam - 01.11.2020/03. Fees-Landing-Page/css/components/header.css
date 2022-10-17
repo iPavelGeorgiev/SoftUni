@@ -1,0 +1,27 @@
+.header {
+  box-shadow: 0 0 20px 0 rgb(50 50 50 / 30%);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo {
+  display: block;
+  width: 15rem;
+  height: auto
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #9b5dc6;
+}

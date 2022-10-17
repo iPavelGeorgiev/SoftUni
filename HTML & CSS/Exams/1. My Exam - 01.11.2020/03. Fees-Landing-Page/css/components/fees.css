@@ -1,0 +1,35 @@
+.fees {
+  text-align: center;
+  position: relative;
+  background: linear-gradient(
+    to bottom,
+    #54546d 0%,
+    #54546d 70%,
+    #fff 70%,
+    #fff 100%
+  );
+  margin-bottom: 10rem;
+}
+
+.fees::before {
+  content: "";
+  position: absolute;
+  background: url("../../images/calculator-icon.svg") no-repeat;
+  background-size: auto 100%;
+  width: 14rem;
+  height: 16rem;
+  top: 6rem;
+  left: -5rem;
+}
+
+.fees-title {
+  color: #fff;
+  padding-top: 6rem;
+}
+
+.fees-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+

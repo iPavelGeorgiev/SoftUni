@@ -1,0 +1,37 @@
+.onsite-or-online {
+  padding: 0 14rem;
+  margin-bottom: 10rem;
+}
+
+.onsite-or-online-desc {
+  margin-bottom: 4rem;
+}
+
+.benefits {
+  border-radius: .8rem;
+  overflow: hidden;
+}
+
+.benefit {
+  padding: 1.5rem;
+  background-color: #f8f8f8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.benefit:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+.benefit-text {
+  margin-bottom: 0;
+  flex-basis: 70%;
+}
+
+.benefit .icon {
+  flex-basis: 18%;
+  width: .5rem;
+  height: 1.7rem;
+}

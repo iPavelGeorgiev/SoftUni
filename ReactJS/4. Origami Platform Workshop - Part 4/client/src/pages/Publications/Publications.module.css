@@ -1,0 +1,13 @@
+.Main {
+   display: inline-block;
+   width: 83%;
+   height: auto;
+   /* border:1px solid blue; */
+   margin-bottom: 5%;
+}
+
+.Posts {
+   width: 100%;
+   /* border:1px solid red; */
+   height: 45vh;
+}

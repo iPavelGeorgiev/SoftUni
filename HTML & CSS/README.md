@@ -17,7 +17,7 @@ The course emphasizes hands-on HTML and CSS exercises that involve you in real-w
 
 ## Summary:
 
-**Duration of course: _28/10/2019 - 08/12/2019_**
+**Duration of course: _14/09/2020 - 01/11/2020_**
 
 **Certificate / Honorable Mention: _[Еxcellent(5.51)](https://softuni.bg/certificates/details/91317/4f5e324f)_**
 

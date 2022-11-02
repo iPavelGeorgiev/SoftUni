@@ -1,18 +1,16 @@
-<br/>
-<br/>
-
-<a href="https://softuni.bg/trainings/courses">
+<a href="https://softuni.bg/trainings/courses" align="center">
   <img src="http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png" alt="logo">
 </a>
 
 <br/>
 <br/>
+<br/>
 
-<h1 style="text-align: center">Courses from the main program in SoftUni</h1>
+<h1 align="center">Courses from the main program in SoftUni</h1>
 
 <br/>
 
-<table style="text-align: center; width: fit-content; margin: 0 auto;">
+<table align="center">
   <thead>
     <tr>
       <th>Course</th>
@@ -21,7 +19,7 @@
       <th>Certificate</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody align="center">
     <tr>
       <td>
         <a href="https://github.com/iPavelGeorgiev/SoftUni/tree/master/Programming%20Basics">Programming Basics</a>
